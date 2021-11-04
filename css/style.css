@@ -7,3 +7,51 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 80vh;
+    background: url("../img/jumbo.png") center center ;
+    background-size: cover;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.logo,.navbar,.button.small {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topbar {
+    width: 100%;
+    position: relative;
+}
+.navbar {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.button.small {
+    position: absolute;
+    right: 0;
+}
