@@ -133,9 +133,16 @@ li a {
 
 /* Section 1 */
 
+section {
+  margin: 70px 0;
+}
+
 .fr {
   width: 100%;
-  margin: 70px 0;
+}
+
+.fr.grey {
+  background: whitesmoke;
 }
 
 .fr::after {
