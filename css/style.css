@@ -147,25 +147,30 @@ li a {
   float: left;
 }
 
-.space.left {
+.space.img {
   width: 60%;
 }
 
-.space.left img {
+.space.img #item-1 {
   width: 90%;
 }
 
-.space.right {
+.space.img #item-2 {
+    width: 60%;
+  }
+
+.space.text-space {
   width: 40%;
   padding-top: 35px;
   padding-left: 120px;
 }
 
-.space.right .inside h2 {
+.space.text-space .inside h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.space.right .inside p {
+.space.text-space .inside p {
   font-size: 18px;
 }
+
