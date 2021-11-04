@@ -135,6 +135,7 @@ li a {
 
 .fr {
   width: 100%;
+  margin: 70px 0;
 }
 
 .fr::after {
@@ -156,8 +157,12 @@ li a {
 }
 
 .space.img #item-2 {
-    width: 60%;
-  }
+  width: 60%;
+}
+
+.space.img #item-3 {
+  width: 50%;
+}
 
 .space.text-space {
   width: 40%;
@@ -174,3 +179,10 @@ li a {
   font-size: 18px;
 }
 
+svg {
+  display: block;
+}
+
+.rotate {
+  transform: rotate(0.5turn);
+}
