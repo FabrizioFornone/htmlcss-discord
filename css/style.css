@@ -10,6 +10,11 @@ body {
 
 /* Utility Class */
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .text-white {
   color: #fff;
 }
@@ -24,16 +29,11 @@ a {
 }
 /* Jumbotron */
 
-.jumbotron {
-  height: 70vh;
+header {
+  height: 625px;
   background: url("../img/jumbo.png") top center;
   background-size: cover;
   position: relative;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .container-slim {
@@ -49,7 +49,6 @@ a {
 }
 
 .topbar {
-  width: 100%;
   height: 50px;
   position: relative;
   top: 10px;
@@ -101,7 +100,7 @@ li a {
 .heading-text {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 750px;
@@ -144,10 +143,6 @@ li a {
 
 section {
   margin: 70px 0;
-}
-
-.fr {
-  width: 100%;
 }
 
 .fr::after {
